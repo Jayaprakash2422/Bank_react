@@ -51,7 +51,7 @@ function Deposit() {
     }
 
     if (deposit > 100000) {
-      alert('Deposit limit exceeded! Maximum deposit per transaction is $100,000.');
+      alert('Deposit limit exceeded! Maximum deposit per transaction is ₹100,000.');
       return;
     }
 
@@ -108,7 +108,7 @@ function Deposit() {
           <Card.Body>
             <h2 className="text-center">Bank Deposit</h2>
             <div className="text-center mb-4">
-              <p>Current Balance: ${(balance || 0).toFixed(2)}</p>
+              <p>Current Balance: ₹{(balance || 0).toFixed(2)}</p>
             </div>
 
             <Form.Group>

@@ -1,0 +1,99 @@
+/* HomePage.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/src/images/home bg.jpg'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.heading {
+  font-size: 3rem;
+  margin-top: -50px; /* Reduced margin to bring it closer to the buttons */
+  padding: 20px; /* Added padding for better spacing */
+  color: #87acdd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 5%;
+  background-color: white; /* White background color */
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
+  
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 1px;
+}
+
+/* Logo Styling */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+  padding-right: 300px;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+}
+
+.button-container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 10px; /* Reduced margin to bring it closer to the heading */
+  justify-content: center; /* Center buttons */
+  width: 100%;
+}
+
+button {
+  padding: 0.90rem 1.5rem;
+  border: none; /* Changed to none for a cleaner look */
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Primary & Secondary Buttons with New Theme */
+button.primary {
+  background: linear-gradient(90deg, #2196f3, #1976d2); /* Blue gradient */
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(33, 150, 243, 0.5);
+}
+
+button.secondary {
+  background: linear-gradient(90deg, #2196f3, #1976d2); /* Blue gradient */
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(33, 150, 243, 0.5);
+}
+
+button.primary:hover {
+  background: linear-gradient(90deg, #1976d2, #42a5f5); /* Darker blue on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(33, 150, 243, 0.7);
+}
+
+button.secondary:hover {
+  background: linear-gradient(90deg, #1976d2, #42a5f5); /* Darker blue on hover */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(33, 150, 243, 0.7);
+}

@@ -1,0 +1,123 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #2D033B; /* Dark background color */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* Maximum width for the card */
+  background-color: #4B0082; /* Dark purple background for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Shadow effect */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.welcome-section {
+  padding: 20px;
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  background: rgba(75, 0, 130, 0.8); /* Semi-transparent background */
+}
+
+.welcome-section h1 {
+  font-size: 2.5rem; /* Large font size for the heading */
+}
+
+.welcome-section p {
+  margin: 10px 0; /* Margin for the paragraph */
+}
+
+.learn-more {
+  padding: 10px 20px; /* Padding for the button */
+  background-color: #FF4500; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Transition effect */
+}
+
+.learn-more:hover {
+  background-color: #FF6347; /* Change color on hover */
+}
+
+.form-section {
+  padding: 20px; /* Padding for the form section */
+  background-color: rgba(75, 0, 130, 0.6); /* Semi-transparent background */
+  color: white; /* Text color */
+}
+
+.form-section h2 {
+  margin-bottom: 20px; /* Margin below the heading */
+  font-size: 2rem; /* Font size for the heading */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Margin below each form group */
+}
+
+.form-group label {
+  display: block; /* Block display for labels */
+  margin-bottom: 5px; /* Margin below the label */
+  font-weight: bold; /* Bold text for labels */
+}
+
+.form-group input {
+  width: 100%; /* Full width input */
+  padding: 10px; /* Padding for input */
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* No border */
+  outline: none; /* No outline */
+}
+
+.submit-button {
+  width: 100%; /* Full width button */
+  padding: 10px; /* Padding for the button */
+  background: linear-gradient(to right, #FF8C00, #FF4500); /* Gradient background */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background 0.3s; /* Transition effect */
+}
+
+.submit-button:hover {
+  background: linear-gradient(to right, #FF6347, #FF4500); /* Change gradient on hover */
+}
+
+.social-icons {
+  display: flex; /* Flexbox for social icons */
+  justify-content: center; /* Center the icons */
+  margin-top: 20px; /* Margin above the icons */
+}
+
+.icon {
+  margin: 0 10px; /* Margin between icons */
+  color: white; /* Icon color */
+  text-decoration: none; /* No underline */
+  font-size: 1.5rem; /* Font size for icons */
+  padding: 10px; /* Padding for icons */
+  border-radius: 50%; /* Circular background */
+}
+
+.icon.facebook {
+  background-color: #3b5998; /* Facebook color */
+}
+
+.icon.instagram {
+  background-color: #C13584; /* Instagram color */
+}
+
+.icon.pinterest {
+  background-color: #E60023; /* Pinterest color */
+}
+

@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    background-color: #eef2f7;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Centering the Deposit Form */
+  .deposit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Card Styles */
+  .card {
+    border-radius: 12px;
+    border: none;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 380px;
+    max-width: 90%;
+  }
+  
+  .card-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .card-text {
+    font-size: 1.2rem;
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Form Input Styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+  }
+  
+  
+ 
+/* Align Deposit Button to Right */
+.deposit-button-container {
+    display: flex;
+    justify-content: flex-end; /* Moves button to the right */
+    width: 100%;
+  }
+  
+  .btn-deposit {
+    background-color: #28a745 !important;
+    border: none !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px 20px;
+    width: auto; /* Adjust width to fit content */
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+    margin-left: auto; /* Pushes button to the right */
+  }
+    
+  .btn-deposit:hover {
+    background-color: #218838 !important;
+  }
+  
+  
+  /* Alerts */
+  .alert {
+    font-size: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .card {
+      width: 95% !important;
+    }
+  }
+  

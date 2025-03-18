@@ -1,0 +1,60 @@
+/* General styles for the dashboard container */
+.logo {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Style the card */
+.dashboard-card {
+  width: 400px; /* Fixed width for the card */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 20px; /* Padding inside the card */
+}
+
+/* Style the card title */
+.dashboard-card .card-title {
+  font-size: 1.5rem; /* Larger font size */
+  font-weight: bold; /* Bold text */
+  color: #333; /* Darker text color */
+}
+
+/* Style the card text */
+.dashboard-card .card-text {
+  color: #555; /* Slightly lighter text color */
+}
+
+/* Style the buttons */
+.button {
+  display: block; /* Block display for full width */
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.success {
+  background-color: #28a745; /* Green color */
+  color: rgb(255, 255, 255); /* Text color */
+}
+
+.success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+
+.danger {
+  background-color: #dc3545; /* Red color */
+  color: rgb(0, 0, 0); /* Text color */
+}
+
+.danger:hover {
+  background-color: #c82333; /* Darker red on hover */
+}

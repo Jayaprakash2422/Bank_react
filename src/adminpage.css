@@ -1,0 +1,67 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Table Styles */
+.table {
+  margin-top: 20px;
+}
+
+.table thead th {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.table tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+/* Button Styles */
+.btn-info {
+  background-color: #17a2b8;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .card {
+    width: 100% !important;
+  }
+
+  .navbar-links {
+    gap: 10px;
+  }
+
+  .navbar-links a {
+    font-size: 14px;
+  }
+}

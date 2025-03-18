@@ -1,0 +1,33 @@
+/* Footer.css */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.main-content {
+    flex: 1; /* Allow the main content to grow and take available space */
+}
+
+.footer {
+    background-color: #ffffff; /* Footer background color */
+    color: rgb(0, 0, 0);       /* Footer text color */
+    text-align: center;        /* Centered text */
+    padding: 5px 50px;          /* Padding for top and bottom */
+    width: 100%;              /* Full width */
+}
+
+.footer-content {
+    max-width: 800px;         /* Max width for content */
+    margin: 0 auto;           /* Center the content */
+    padding: 0 20px;          /* Horizontal padding */
+}
+
+.footer p {
+    margin: 0;                /* Remove default margin */
+    font-size: 14px;          /* Font size */
+}

@@ -1,0 +1,64 @@
+/* dashboard.css */
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #f8f9fa; /* Light background for the navbar */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-logo {
+  height: 40px; /* Adjust logo height */
+  width: 40px ;
+}
+
+
+/* Container styles */
+.container {
+  max-width: 800px; /* Limit the width of the container */
+  margin: auto; /* Center the container */
+}
+
+
+
+/* Welcome message styles */
+.welcome-message {
+  margin: 10px 0; /* Margin for the welcome message */
+  font-size: 1.5rem; /* Increase font size for emphasis */
+}
+
+/* Card styles */
+.card {
+  border-radius: 10px; /* Rounded corners for the card */
+  padding: 20px; /* Padding inside the card */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Button styles */
+.btn {
+  border-radius: 5px; /* Rounded corners for buttons */
+  padding: 10px; /* Padding for buttons */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items on smaller screens */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .navbar-links {
+    margin-top: 10px; /* Space between logo and links */
+  }
+
+  .container {
+    width: 90%; /* Make the container full width on small screens */
+  }
+
+  .welcome-message {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+}

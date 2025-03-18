@@ -1,0 +1,85 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Welcome Message */
+.welcome-message h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.welcome-message p {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* Button Container */
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-container a {
+    text-decoration: none;
+}
+
+.button-container button {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.button-container button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 12px rgba(255, 75, 43, 0.4);
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.8;
+}
